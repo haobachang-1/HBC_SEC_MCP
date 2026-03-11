@@ -22,6 +22,8 @@ http://www.loveli.com.cn
 
 HBC_SEC_MCP 是一个安全工具网关，将传统命令行安全工具包装为现代化的 MCP 服务。它实现了 MCP JSON-RPC 2.0 协议，让 AI 客户端能够以标准化的方式发现并调用安全测试能力。
 
+思路参考：https://github.com/Wh0am123/MCP-Kali-Server
+
 ## 核心技术栈
 
 - **Flask** - Web 服务框架，提供 HTTP API
