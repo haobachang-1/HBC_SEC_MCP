@@ -15,3 +15,8 @@ DEBUG_MODE = os.environ.get("DEBUG_MODE", "0").lower() in ("1", "true", "yes", "
 COMMAND_TIMEOUT = 180
 MCP_PROTOCOL_VERSION = "2024-11-05"
 TOOL_SQLMAP_SCAN = "sqlmap_scan"
+
+SIYUAN_BASE_URL = os.environ.get("SIYUAN_BASE_URL", "http://127.0.0.1:6806")
+# 思源笔记的API Token
+SIYUAN_API_TOKEN = os.environ.get("SIYUAN_API_TOKEN", "")
+SIYUAN_TIMEOUT = int(os.environ.get("SIYUAN_TIMEOUT", 30))
